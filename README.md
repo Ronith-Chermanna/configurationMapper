@@ -64,3 +64,17 @@ config_dict = process_config(
     output_format="json",
     output_path="path/to/output/config.json"
 )
+
+------------------------------------------------------------------------------------------------------------------------
+### Running test cases
+
+```base
+cd to `test` directort 
+run   pytest
+
+if this doesnt not work  
+    cd to directory where setup.py is present and run
+    pip install -e .
+```
+
+
